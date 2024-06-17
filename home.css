@@ -1,0 +1,934 @@
+.main-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav bar */
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #524D4D;
+    height: 150px;
+    max-width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+.fitness-logo-container {
+    height: 350px;
+    width: 450px;
+
+
+}
+
+.fitness-logo-container>img{
+
+    height: 190px;
+    width: 100%;
+
+}
+
+.ri-menu-line{
+    font-size: 125px;
+    display: none;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 35px 82px 0 0;
+
+
+}
+
+.nav-button-container{
+    height: fit-content;
+}
+
+.nav-buttons a {
+    padding: 0 10px;
+    margin-top: 25px;
+    color: aliceblue;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+
+.nav-buttons button {
+
+    top: 35%;
+    right: -26%;
+    font-size: 40px;
+    border-radius: 8px;
+    height: 62%;
+    background-color: #FFA500;
+    border: none;
+    margin: 25px 0 0 8px;
+    cursor: pointer;
+
+}
+
+.nav-button {
+    margin-right: 90px;
+}
+
+
+
+/* Registration popup */
+
+
+.form {
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%,-50%);
+    position: absolute;
+    background-color: gainsboro;
+    opacity: 0.89;
+    width: 700px;
+    height: 1080px; 
+    position: fixed;
+    margin: auto; 
+    display: none;
+    background-color: #FFA500;
+    ;
+    z-index: 2;
+   
+}
+
+
+  .form  label{
+    display: block;
+    margin-top: 2rem;
+  }
+  .form input{
+   width: 30rem;
+  }
+
+  
+
+  #contact{
+    display: block;
+  }
+
+
+  .subscription-heading{
+
+    font-size: 32px;
+    font-weight: 600;
+    margin:  0 0 0 150px;
+
+  }
+
+  .fem-input{
+    border-width: 1px;
+    border-style: solid;
+    background-color:  #D9D9D9;
+    height: 25px;
+    
+  }
+
+  .subscription-fem{
+
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+ 
+
+
+  .close-button {
+    
+    background-color:  #8D8383;
+ 
+    color: black; 
+    cursor: pointer; 
+    border: none;
+   font-weight: 600;
+   font-size: 30px;
+    height: 50px;
+    width: 200px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    margin: 0 0 0 415px;
+    
+  }
+
+/* Change color on hover */
+.close-button:hover {
+    background-color: violet;
+    color: brown;
+}
+
+.register-button{
+  cursor: pointer;
+  height: 100%;
+}
+
+
+
+
+.duration{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.dm-container{
+    display: flex;
+  
+  
+  
+    
+}
+.mode-container{
+    display: flex;
+  
+  
+  
+    
+}
+
+.dm-labels{
+    font-size: 32px;
+    height: fit-content;
+    width: fit-content;
+    background-color:#D9D9D9 ;
+    /* margin:0 -61px 0 0; */
+   
+}
+
+
+.mode-labels{
+    font-size: 32px;
+    height: fit-content;
+    width: fit-content;
+    background-color:#D9D9D9 ;
+    margin:0 0 0 50px;
+   
+}
+
+
+.dm-radios{
+    width: 20px;
+    height:20px;
+    margin: 35px 0 0 0;
+    margin: 47px -375px 0 0;
+}
+
+
+.mode-radios{
+    width: 20px;
+    height:20px;
+    margin: 35px 0 0 0;
+    margin: 47px -375px 0 0;
+}
+
+
+.radio-label-containers{
+    display: flex; 
+    
+}
+
+
+
+
+
+.personal-trainer{
+        font-size: 28px;
+        font-weight: 700;
+}
+
+
+
+
+
+.radio-label-ptcontainers{
+    display: flex;
+    
+ }
+
+
+.pt-heading-container{
+    display: flex;
+}
+
+
+.pt-span{
+    font-size: 16px;
+    margin: 32px 0 0 12px ;
+}
+
+
+.pt-radios{
+    width: 20px;
+    height:20px;
+    margin: 35px 0 0 0;
+    margin: 47px -375px 0 0;
+}
+
+ .pt-labels{
+    font-size: 32px;
+    height: fit-content;
+    width: fit-content;
+    background-color:#D9D9D9 ;
+    margin: 0 80px 0 0;
+    
+ }
+
+ .tc-radio{
+
+    height: 20px;
+    width: 20px;
+    margin: 50px 0 0 0;
+    }
+
+
+    .tc-container{
+
+        display: flex;
+
+    }
+
+
+    .tc-span{
+        font-size: 20px;
+    width: 300px;
+    margin: 0 510px 0 0;
+ border-color: aqua;
+ border-style: solid;
+    }
+
+.tc-label{
+    font-size: 20px;
+    width: 300px;
+    margin: 0 510px 0 0;
+
+    
+}
+
+
+
+/* free trial box */
+
+.free-trial-box{
+    height: 950px;
+    width: 100%;
+    background-image: url("./images/training.jpg");
+    background-size: 100% 100%;
+    display: inline-block;
+
+}
+
+.free-trial-container{
+    opacity: 0.86;
+    background-color: #1E1D1DDB;
+    width: 1111px;
+    height: 557px;
+    margin: 140px 0 0 183px;
+    display: inline-block;
+}
+
+
+.free-trial-subcontainer {
+    margin: 56px 0 0 116px;
+    width: 70%;
+    height: 80%;
+}
+
+
+
+
+
+
+.cont-1 {
+
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 87px;
+}
+
+.cont-2 {
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 3%;
+}
+
+
+
+.buttons-cont {
+    margin-top: 10%
+}
+
+.buttons-cont button {
+    width: 221px;
+    height: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    color: white;
+    border-radius: 9%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.get-started {
+    background-color: #FFA500;
+    ;
+}
+
+.free-trial {
+    background-color: #4D4848;
+    border-color: #FFA500;
+    border-width: 3px;
+}
+
+
+
+
+
+
+
+
+
+/* fitness plan box */
+
+
+
+
+.fitness-plan-box {
+    background-color: #FFA50052;
+    height: 950px;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.fitness-plan-heading {
+    font-size: 49px;
+    margin: 90px 0 0 775px;
+    font-weight: bold;
+
+}
+
+
+
+
+
+.upper-activities,.lower-activities {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 0 0 490px;
+
+}
+
+
+.gym-activities{
+    margin: 120px 0 0 0;
+}
+
+
+
+
+    .fitness-plan-hr{
+        border: 2.3px solid #FFA500;
+       width:65%; 
+
+    
+    } 
+
+
+
+
+
+    .v-left{
+        border-left: 2.3px solid #FFA500;
+  height: 470px;
+  position: absolute;
+  left: 36%;
+    }
+
+    .v-right{
+        border-left: 2.3px solid #FFA500;
+  height: 470px;
+  position: absolute;
+  left: 60%;
+    }
+
+    
+
+  .upper-activities>div {
+    margin: 0 350px 0 0;
+} 
+    
+
+    .gym-activities>.upper-activities>div>img {
+        width: 100%;
+        height: 168px;
+    
+    } 
+
+    .lower-activities>div {
+        margin: 0 350px 0 0;
+    } 
+
+
+    .gym-activities>.lower-activities>div>img {
+        width: 100%;
+        height: 168px;
+    
+    } 
+
+
+    .activity-image-label {
+        font-size: 25px;
+        font-weight: bold;
+       
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*subscription box  */
+
+
+
+.subscrition-box {
+
+    height: 950px;
+    width: 100%;
+    background-image: url("./images/anastase-maragos-9dzWZQWZMdE-unsplash.jpg");
+    background-size: 100% 100%;
+    display: inline-block;
+}
+
+.subscription-plan-heading {
+    color: #FFA500;
+    margin: 20px 0 0 960px;
+    font-size: 49px;
+
+}
+
+.yellow {
+    color: #FFA500;
+    font-size: 40px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grey {
+    color: #A49B9B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 217px;
+    margin: 0 0 0 23px;
+}
+
+
+
+
+.subscription-container button {
+    background-color: #524D4D;
+    color: white;
+    border-color: #FFA500;
+    width: 227px;
+    height: 63px;
+}
+
+.various-subscriptions-containers {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 280px;
+
+
+}
+
+.subscription-container {
+    background-color: #FFFFFF33;
+    width: 340px;
+    height: 408px;
+    margin: 180px 180px 0 0
+}
+
+
+/* setting the items individually in subscription box   */
+
+
+/* beginer */
+
+.beginer .type {
+    margin: 15px 0 0 105px;
+}
+
+.beginer .duration {
+    margin: 5px 0 0 63px
+}
+
+.beginer .rate {
+    margin: 50px 0 0 70px;
+}
+
+.beginer .mode {
+    margin: 5px 0 0 70px;
+}
+
+.beginer button {
+    font-size: 34px;
+    border-width: 4px;
+    border-radius: 8px;
+    margin: 62px 0 0 52px
+}
+
+/* intermediate */
+
+.intermediate .type {
+    margin: 15px 0 0 53px;
+}
+
+.intermediate .duration {
+    margin: 5px 0 0 65px;
+
+}
+
+.intermediate .rate {
+    margin: 50px 0 0 57px;
+}
+
+.intermediate .mode {
+    margin: 5px 0 0 75px;
+}
+
+
+.intermediate button {
+    font-size: 34px;
+    border-width: 4px;
+    border-radius: 8px;
+    margin: 62px 0 0 52px
+}
+
+/* advanced */
+
+.advanced .type {
+    margin: 15px 0 0 65px;
+}
+
+.advanced .duration {
+    margin: 5px 0 0 66px;
+
+}
+
+.advanced .rate {
+    margin: 50px 0 0 53px;
+}
+
+.advanced .mode {
+    margin: 5px 0 0 60px;
+}
+
+
+
+.advanced button {
+    font-size: 34px;
+    border-width: 4px;
+    border-radius: 8px;
+    margin: 62px 0 0 52px
+}
+
+
+
+/* fitness club box */
+
+
+.fitness-club-box {
+
+    height: 400px;
+    width: 100%;
+    background-image: url("./images/gym1.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+
+.yellow-box{
+    height: 400px;
+    background-color:#FFA500;
+
+}
+
+.feature-container{
+
+width: 1133px;
+height: 412px;
+margin: 450px 0 0 0;
+background-color: white;
+}
+
+.feature-sub-container{
+    display: flex;
+justify-content: space-evenly;
+margin: 95px 0 0 0;
+}
+
+.feature-logo{
+    width: 135px;
+    height: 135px;
+}
+
+.feature-heading{
+       font-size: 35px;
+}
+.feature-brief{
+    font-size: 22px;
+}
+
+
+
+
+
+/* success stories  */
+
+.success-stories-box {
+    background-color: black;
+    height: 704px;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.success-stories-heading {
+
+    color: #FFA500;
+    width: 352px;
+    height: 58px;
+    font-size: 48px;
+    margin: 2% 0 0 43%;
+
+}
+
+.individual-stories-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    
+
+}
+
+
+
+.stories-pic-container {
+    width: 281px;
+    height: 360px;
+    margin: 0 0 0 350px;
+    overflow: hidden;
+}
+
+.stories-pic-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+
+    font-size: 24px;
+    color: #FFA500;
+    width: 270px;
+    margin: 19px 0 0 360px;
+}
+
+/* footer box */
+
+
+.footer-box {
+
+    background-color: #524D4D;
+    display: inline-block;
+    height: 505px;
+    width: 100%;
+}
+
+
+
+.footer-sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 420px;
+}
+
+.fitness-container {
+    width: 420px;
+    height: 100%;
+    
+
+}
+
+
+.fitness-text {
+    font-size: 31px;
+    color: #FFA500;
+    width: 400px;
+    margin-left: 50px;
+
+}
+
+
+
+.ccm-container {
+    
+    margin: 45px 0 0 0;
+    height: 100%;
+    width: fit-content;
+ 
+}
+
+.ccm-table-heading {
+
+    font-size: 38px;
+    padding: 0 0 30px 70px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.table-heading-container{
+    display: flex;
+
+}
+
+.table-description-container{
+    display: flex;
+   margin-right: 55px;
+    
+}
+
+
+.ccm-table-description {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 0px 0px 150px;
+    display: inline-block;
+    margin: 0 0 51px 0;
+  
+
+}
+
+.extra-container{
+    display: none;
+}
+
+
+
+.ccm-tc {
+    color: white;
+    margin: 0 0 0 160px;
+    height: 30px;
+    font-size: 25px;
+    width: 260px;
+}
+
+
+.popular-tags-container{
+    margin: 35px 150px 0 0;
+    height: 100%;
+    width: 400px;
+}
+
+
+.popular-tags-heading{
+    font-size: 38px;
+    color: #FFA500;
+    text-decoration: underline;
+    
+}
+
+.popular-tags-table{
+    margin-top: 20px;
+    border-spacing: 20px 20px;
+}
+
+.pt-description{
+    padding: 20px 0 0 0;
+    margin: 10px 24px;
+    color: white;
+    font-size: 32px;
+    width: 30%;
+
+
+}
+
+
+.pt-item-row{
+
+display: flex;
+
+}
+
+.greyitem{
+ background: #8D8383;
+
+}
+
+.yellowitem{
+    background: #FFA500;
+
+}
+
+.facilities{
+    margin:  0 0 0 100px ;
+    width: fit-content;
+}
+
+
+/*copyright box */
+
+.copyright-box{
+        background-color:#FFA500;
+        width: 100%;
+        height: 78px;
+        display: inline-block;
+                
+    }
+
+    .copyright-text{
+    color: black;
+    font-size: 30px;
+    margin: 30px 0 0 650px;
+    letter-spacing: 8px;
+    }

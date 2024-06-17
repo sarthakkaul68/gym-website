@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="responsivehome.css">
+    <link rel="stylesheet" href="responsivemhome.css">
+</head>
+
+
+<body>
+    <div class="main-container">
+
+
+
+
+
+        <!-- Nav Bar -->
+
+        <div class="nav-bar">
+
+
+
+
+            <div class="fitness-logo-container">
+                <img src="images/fitness logo.png" class="fitness-logo-image" alt="fitness" >
+            </div>
+
+
+
+            <div  class="nav-button-container">
+
+
+
+                <ul   class="nav-buttons">
+
+                    <a class="nav-button" href="index.html">Home</a>
+                    <a class="nav-button" href="classes.html">Classes</a>
+                    <a class="nav-button" href="product.html">Products</a>
+                    <a class="nav-button" href="blogs.html">Blogs</a>
+
+                    <button class="nav-button" onclick="openForm()">Join Us</button>
+                </ul>
+
+<div class="hamburger">
+    <i class="ri-menu-line"></i>
+</div>
+
+
+            </div>
+        </div>
+
+        
+        <!-- Registration popup -->
+
+
+        <div class="form">
+            <form action="">
+                <div class="subscription-heading"><b>SUBSCRIPTION PLAN</b></div>
+
+
+                <label for="full name" class="subscription-fem">FULL NAME</label>
+                <input class="fem-input" type="text">
+                <br>
+
+                <label for="email" class="subscription-fem">EMAIL</label>
+                <input class="fem-input" type="text">
+                <br>
+
+                <label for="mobile number" class="subscription-fem">MOBILE NUMBER</label>
+                <input class="fem-input" id="contact" type="number">
+
+
+
+
+                <p class="duration">DURATION:</p>
+
+
+
+                <div class="dm-container">
+
+                    <div class="radio-label-containers">
+                        <input class="dm-radios" type="radio" value="monthly">
+                        <label class="dm-labels" for="monthly">Monthly</label>
+
+                    </div>
+
+
+                    <div class="radio-label-containers">
+                        <input class="dm-radios" type="radio" value="yearly">
+                        <label class="dm-labels" for="yearly">Yearly</label>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <p class="duration">Mode of Payment</p>
+
+
+
+                <div class="mode-container">
+
+                    <div class="radio-label-containers">
+                        <input class="mode-radios" type="radio" value="monthly">
+                        <label class="mode-labels" for="monthly">Cash</label>
+
+                    </div>
+
+
+                    <div class="radio-label-containers">
+                        <input class="dm-radios" type="radio" value="yearly">
+                        <label class="dm-labels" for="yearly">Online</label>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="pt-heading-container">
+                    <p class="personal-trainer">Personal Trainer</p><span class="pt-span">*free with yearly plan</span>
+                </div>
+
+
+
+
+                <div class="pt-container">
+
+                    <div class="radio-label-ptcontainers">
+                        <input class="pt-radios" type="radio" value="monthly">
+                        <label class="pt-labels" for="monthly">Required</label>
+
+                    </div>
+
+
+                    <div class="radio-label-ptcontainers">
+                        <input class="pt-radios" type="radio" value="yearly">
+                        <label class="pt-labels" for="yearly">Not requi</label>
+
+                    </div>
+
+                </div>
+
+                <br>
+
+                <div class="tc-container">
+                    <input type="radio" value="tc acceptance" class="tc-radio">
+                    <label class="tc-label"><b>I accept all terms and conditions</b> </label>
+                </div>
+
+
+
+                <button class="close-button" onclick="closeForm()">BUY PLAN</button>
+
+
+
+            </form>
+        </div>
+
+
+
+
+
+
+    
+
+
+            <!-- free trial box -->
+
+            <div class="free-trial-box">
+
+                <div class="free-trial-container">
+
+
+                    <div class="free-trial-subcontainer">
+
+                        <div class="cont-1">Revitilize
+                           your body 
+                        </div>
+
+
+
+                        <div class="cont-2">
+                            Fall in love with taing care of yourself:
+                            <br>mind, body and spirit.
+                        </div>
+
+
+                        <div class="buttons-cont">
+                            <button class="get-started"> Get Started</button>
+                            <button class="free-trial">Free Trial →</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+           
+
+
+            <!-- fitness plan box -->
+
+            <div class="fitness-plan-box">
+
+
+
+
+                <div class="fitness-plan-heading">
+
+                    <u>Fitness Plans and nutritions</u>
+                </div>
+
+
+
+                <div class="gym-activities">
+
+                    <div class="v-left"></div>
+                    <div class="v-right"></div>
+
+                    <div class="upper-activities">
+
+
+
+                        <div class="weight-loss">
+                            <img src="images/icons8-weight-pound-50.png" alt="weight loss pic">
+
+                            <div class="activity-image-label">Weight Loss</div>
+
+                        </div>
+
+
+                        <div class="classic-yoga">
+                            <img src="images/icons8-yoga-50.png" alt="yoga pic">
+
+                            <div class="activity-image-label">Classic Yoga</div>
+
+
+                        </div>
+
+
+                        <div class="cycling">
+                            <img src="images/icons8-cycling-50.png" alt="cycling pic">
+
+                            <div class="activity-image-label">Cycling</div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="plan-hr-container">
+
+                        <hr class="fitness-plan-hr">
+                    </div>
+
+
+
+
+                    <div class="lower-activities">
+
+                        <div class="body-building">
+
+                            <img src="images/icons8-biceps-50.png" alt="body building pic">
+
+                            <div class="activity-image-label">Body Building</div>
+                        </div>
+
+                        <div class="hypertrophy">
+                            <img src="images/icons8-gym-50.png" alt="Hypertrophy pic">
+
+                            <div class="activity-image-label">Hypertrophy</div>
+                        </div>
+
+                        <div class="running">
+                            <img src="images/icons8-running-50.png" alt="Running pic">
+
+                            <div class="activity-image-label">Running</div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <!-- subscription box -->
+
+
+            <div class="subscrition-box">
+
+
+
+
+                <div class="subscription-plan-heading">
+                    Subscription Plans
+                </div>
+
+
+
+                <div class="various-subscriptions-containers">
+
+
+                    <div class="beginer subscription-container ">
+
+                        <div>
+
+                            <div class="yellow type">Basic</div>
+                            <div class="grey duration"> for 12 months</div>
+                            <div class="yellow rate"> 800/month</div>
+                            <div class="grey mode">for streaming</div>
+                            <button>Select Plan</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="intermediate subscription-container">
+
+                        <div>
+
+                            <div class="yellow type">Intermediate</div>
+                            <div class="grey duration"> for 12 months</div>
+                            <div class="yellow rate"> 1000/month</div>
+                            <div class="grey mode">for streaming</div>
+                            <button>Select Plan</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="advanced subscription-container">
+
+                        <div>
+
+                            <div class="yellow type">Advanced</div>
+                            <div class="grey duration"> for 12 months</div>
+                            <div class="yellow rate"> 1500/month</div>
+                            <div class="grey mode">for streaming</div>
+                            <button>Select Plan</button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- fitness club box -->
+
+
+
+            <div class="fitness-club-box">
+
+
+
+                <div class="feature-container">
+
+                    <div class="feature-sub-container">
+
+
+                        <div class=" feature good-management">
+                            <div class="feature-logo"> <img src="images/gym2.png" alt="gym2" height="100%" width="100%">
+                            </div>
+                            <div class="feature-heading"><b>Good Management</b></div>
+                            <div class="feature-brief"><b>What hurts you today makes you stronger tomorrow</b></div>
+                         
+
+                        </div>
+
+
+
+                        <div class=" feature practice-sessions">
+                            <div class="feature-logo"><img src="images/gym3.png" height="100%" width="100%" alt="gym3">
+                            </div>
+                            <div class="feature-heading"><b>Practice Sessions</b></div>
+                            <div class="feature-brief"><b>Motivation is what gets you started.</b></div>
+                        </div>
+
+
+
+
+
+                        <div class="feature personal-trainers">
+
+                            <div class="feature-logo"><img src="images/gym4.png" width="100%" height="100%" alt="gym4">
+                            </div>
+                            <div class="feature-heading"><b>Personal Trainers</b></div>
+                            <div class="feature-brief"><b>If it doesn't challenge you, it won't change you</b></div>
+                           
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+            <div class="yellow-box">.</div>
+
+
+
+
+            <!-- success stories -->
+
+            <div class="success-stories-box">
+                <div class="success-stories-heading">Success Stories</div>
+
+                <div class="individual-stories-container">
+
+                    <div class="working-out">
+
+                        <div class="stories-pic-container"><img src="images/james-barr-jYrFcbztIHA-unsplash.jpg"
+                                alt="james barr">
+                        </div>
+
+                        <div class="info">Working out regularly I lose
+                            some of my extra pounds which
+                            helped in my modelling career.</div>
+
+
+
+                    </div>
+
+
+                    <div class="yoga-pilates">
+                        <div class="stories-pic-container"><img src="images/bruce-mars-HHXdPG_eTIQ-unsplash.jpg"
+                                alt="james barr"></div>
+                        <div class="info">Yoga and Pilates helped
+                            me get back in shape
+                            and raised my confidence.</div>
+
+                    </div>
+
+                    <div class="diet-plan">
+
+                        <div class="stories-pic-container"><img src="images/mark-adriane-xQghSLXYD3M-unsplash.jpg"
+                                alt="james barr"></div>
+                        <div class="info">Personal Trainer diet plan
+                            helpedin increasing
+                            strength and endurance.</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- footer box -->
+
+            <div class="footer-box">
+
+                <div class="footer-sub-container">
+
+
+                    <div class="fitness-container">
+
+
+                        <div class="logo-container">
+                            <img src="images/fitness logo.png">
+                        </div>
+
+                        <div class="fitness-text">
+                            Prioritize Your Fitness Goals with our world class service
+                        </div>
+
+                    </div>
+
+
+                    <div class="ccm-container">
+
+
+                        <div>
+                            <div class="table-heading-container">
+                                <div class="remove ccm-table-heading">Company</div>
+                                <div class="ccm-table-heading">Contact</div>
+                                <div  class=" remove ccm-table-heading">More</div>
+                            </div>
+
+                            <div class="table-description-container">
+                                <div><a class="ccm-table-description" href="">About</a></div>
+                                <div class="remove"><a class="ccm-table-description" href="">Help</a></div>
+                                <div class="remove "><a class="ccm-table-description" href="">Program</a></div>
+                            </div>
+
+                            <div class="table-description-container ">
+                                <div ><a class="ccm-table-description" href="">Careers</a></div>
+                                <div class="remove"><a class="ccm-table-description" href="">Press</a></div>
+                                <div  class="remove"><a class="ccm-table-description" href="">Plans</a></div>
+                            </div>
+
+
+                            <div class="table-description-container">
+                                <div class="remove"><a class="ccm-table-description" href="">Blogs</a></div>
+                                <div class="remove"><a class="ccm-table-description" href="">Mobile</a></div>
+                                <div class="remove"><a class="ccm-table-description" href="">Method</a></div>
+                            </div>
+
+                            <div class="extra-container">
+<div class="extra  memberships">Memberships</div>
+<div class="extra  customer">Customer Service</div>
+                            </div>
+                        </div>
+
+                        <div class="remove ccm-tc">Terms and Conditions</div>
+                    </div>
+
+
+                    <div class="popular-tags-container">
+
+                        <div class="popular-tags-heading">Popular Tags</div>
+
+
+                        <div class="popular-tags-table">
+                            <div class="pt-item-row">
+                                <div class="pt-description greyitem pt-description-abs ">ABS</div>
+                                <div class="pt-description greyitem pt-description-workout">Workout</div>
+                            </div>
+
+
+                            <div class="pt-item-row">
+                                <div class="pt-description yellowitem pt-description-nutrition ">Nutrition</div>
+                                <div class="pt-description greyitem  pt-description-running">Running</div>
+
+                            </div>
+
+                            <div class="pt-item-row">
+                                <div class="pt-description greyitem pt-description-boxing ">Boxing</div>
+                                <div class="pt-description yellowitem pt-description-trainers ">Trainers</div>
+                            </div>
+
+                            <div class="pt-description yellowitem facilities ">Facilities</div>
+                        </div>
+
+                       
+
+                                         
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- copyright box -->
+
+            <div class="copyright-box">
+
+                <div class="copyright-text">
+                    CopyRight All Rights Reserved
+                </div>
+
+
+            </div>
+
+       
+
+    </div>
+
+
+ 
+    
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,653 @@
+.main-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav bar */
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #524D4D;
+    height: 150px;
+    max-width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+.fitness-logo-container {
+    height: 350px;
+    width: 450px;
+
+
+}
+
+.fitness-logo-container>img{
+
+    height: 190px;
+    width: 100%;
+
+}
+
+.ri-menu-line{
+    font-size: 125px;
+    display: none;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 35px 82px 0 0;
+
+
+}
+
+.nav-button-container{
+    height: fit-content;
+}
+
+.nav-buttons a {
+    padding: 0 10px;
+    margin-top: 25px;
+    color: aliceblue;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+
+.nav-buttons button {
+
+    top: 35%;
+    right: -26%;
+    font-size: 40px;
+    border-radius: 8px;
+    height: 62%;
+    background-color: #FFA500;
+    border: none;
+    margin: 25px 0 0 8px;
+    cursor: pointer;
+
+}
+
+.nav-button {
+    margin-right: 90px;
+}
+
+
+
+
+
+
+/* Registration popup */
+
+
+.form {
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%,-50%);
+    position: absolute;
+    background-color: gainsboro;
+    opacity: 0.89;
+    width: 700px;
+    height: 1080px; 
+    position: fixed;
+    margin: auto; 
+    display: none;
+    background-color: #FFA500;
+    ;
+    z-index: 2;
+   
+}
+
+
+  .form  label{
+    display: block;
+    margin-top: 2rem;
+  }
+  .form input{
+   width: 30rem;
+  }
+
+  
+
+  #contact{
+    display: block;
+  }
+
+
+  .subscription-heading{
+
+    font-size: 32px;
+    font-weight: 600;
+    margin:  0 0 0 150px;
+
+  }
+
+  .fem-input{
+    border-width: 1px;
+    border-style: solid;
+    background-color:  #D9D9D9;
+    height: 25px;
+    
+  }
+
+  .subscription-fem{
+
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+ 
+
+
+  .close-button {
+    
+    background-color:  #8D8383;
+ 
+    color: black; 
+    cursor: pointer; 
+    border: none;
+   font-weight: 600;
+   font-size: 30px;
+    height: 50px;
+    width: 200px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    margin: 0 0 0 415px;
+    
+  }
+
+/* Change color on hover */
+.close-button:hover {
+    background-color: violet;
+    color: brown;
+}
+
+.register-button{
+  cursor: pointer;
+  height: 100%;
+}
+
+
+
+
+.duration{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.dm-container{
+    display: flex;
+  
+  
+  
+    
+}
+
+.dm-labels{
+    font-size: 32px;
+    height: fit-content;
+    width: fit-content;
+    background-color:#D9D9D9 ;
+   
+}
+
+.dm-radios{
+    width: 20px;
+    height:20px;
+    margin: 35px 0 0 0;
+    margin: 47px -375px 0 0;
+}
+
+
+.radio-label-containers{
+    display: flex; 
+    
+}
+
+
+
+.personal-trainer{
+        font-size: 28px;
+        font-weight: 700;
+}
+
+.pt-container{
+    
+}
+
+
+.radio-label-ptcontainers{
+    display: flex;
+    
+ }
+
+
+.pt-heading-container{
+    display: flex;
+}
+
+
+.pt-span{
+    font-size: 16px;
+    margin: 32px 0 0 12px ;
+}
+
+
+ .pt-labels{
+    font-size: 32px;
+    height: fit-content;
+    width: fit-content;
+    background-color:#D9D9D9 ;
+    
+ }
+
+ .tc-radio{
+
+    height: 20px;
+    width: 20px;
+    margin: 50px 0 0 0;
+    }
+
+
+    .tc-container{
+
+        display: flex;
+
+    }
+
+
+    .tc-span{
+        font-size: 20px;
+    width: 300px;
+    margin: 0 510px 0 0;
+ border-color: aqua;
+ border-style: solid;
+    }
+
+.tc-label{
+    font-size: 20px;
+    width: 300px;
+    margin: 0 510px 0 0;
+
+    
+}
+
+
+
+
+
+
+
+/* our classes box */
+
+
+.our-classes-box{
+    height: 950px;
+    width: 100%;
+    background-image: url("./images/bg\ 1.jpg");
+    background-size:100% 100% ;
+    display: inline-block;
+}
+
+
+.our-classes-heading{
+    font-size: 65px;
+    color: white;
+    margin: 50px 0 0 950px;
+}
+
+
+.our-classes-hr{
+    color: white;
+     border-style: solid; 
+      width: 320px;
+       margin: 25px 0 0 950px;
+}
+
+.various-level-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5% 0 0 0;
+}
+
+.level-image-container{
+    height: 300px;
+    width: 300px;
+    
+}
+
+.level-image-container>img{
+    border-radius: 50px;
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+}
+
+
+.level-timings{
+    color: white;
+    font-size: 30px;
+    margin: 30px 0 0 60px 
+
+}
+
+.level-name{
+    width: 280px;
+    height: 68px;
+    margin: 15px 0 0 8px;
+    
+}
+
+.level-name>button{
+
+    height: 100%;
+    width: 100%;
+    background-color:#C53B3B;
+    border-width: 1px;
+    border-radius: 120px;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+
+ /* training partners box  */
+
+ .training-partners-box{
+    height:1000px ;
+    width: 100%;
+    position: relative;
+ }
+
+ .training-partners-heading{
+    font-size: 65px;
+    color: black;
+    margin: 50px 0 0 38%;
+}
+
+
+.training-partners-hr{
+    color: black;
+    border-style: solid;
+    width: 29%;
+    margin: 2% 0 0 38%;
+}
+
+
+
+.training-partners-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5% 0 0 0;
+  
+}
+.partner-image-container{
+    height: 280px;
+    width: 280px;
+}
+
+.partner-image-container>img{
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    height:378px;
+    width: 280px;
+}
+
+.partner-name{
+    background-color: #4D4848;
+    font-size: 30px;
+    margin: 120px 0 0 43px;
+    width: 200px;
+    height: 45px;
+    font-weight: 400;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+}
+
+.tpyellow-box{
+    background-color: #FFA500;
+    width: 97%;
+    height: 50%;
+    position: absolute;
+    bottom: 2px;
+    z-index: -1;
+    opacity: .34;
+    
+}
+
+/* Carousel-box */
+
+
+* {box-sizing:border-box}
+
+.carousel-box{
+    width: 100vw;
+    position: relative;
+    margin: auto;
+    z-index: -1; 
+}
+
+
+.carousel-image{
+    width: 100%;
+}
+
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 230%;
+    width: auto;
+    z-index: 1;
+    margin-top: 0px;
+    padding: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: 90px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+
+   
+  }
+
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: white
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+/* footer box */
+
+
+.footer-box {
+
+    background-color: #524D4D;
+    display: inline-block;
+    height: 505px;
+    width: 100%;
+}
+
+
+
+.footer-sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 420px;
+}
+
+.fitness-container {
+    width: 420px;
+    height: 100%;
+    
+
+}
+
+
+.fitness-text {
+    font-size: 31px;
+    color: #FFA500;
+    width: 400px;
+    margin-left: 50px;
+
+}
+
+
+
+.ccm-container {
+    
+    margin: 45px 0 0 0;
+    height: 100%;
+    width: fit-content;
+ 
+}
+
+.ccm-table-heading {
+
+    font-size: 38px;
+    padding: 0 0 30px 70px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.table-heading-container{
+    display: flex;
+
+}
+
+.table-description-container{
+    display: flex;
+   margin-right: 55px;
+    
+}
+
+
+.ccm-table-description {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 0px 0px 150px;
+    display: inline-block;
+    margin: 0 0 51px 0;
+  
+
+}
+
+.extra-container{
+    display: none;
+}
+
+
+
+.ccm-tc {
+    color: white;
+    margin: 0 0 0 160px;
+    height: 30px;
+    font-size: 25px;
+    width: 260px;
+}
+
+
+.popular-tags-container{
+    margin: 35px 150px 0 0;
+    height: 100%;
+    width: 400px;
+}
+
+
+.popular-tags-heading{
+    font-size: 38px;
+    color: #FFA500;
+    text-decoration: underline;
+    
+}
+
+.popular-tags-table{
+    margin-top: 20px;
+    border-spacing: 20px 20px;
+}
+
+.pt-description{
+    padding: 20px 0 0 0;
+    margin: 10px 24px;
+    color: white;
+    font-size: 32px;
+    width: 30%;
+
+
+}
+
+
+.pt-item-row{
+
+display: flex;
+
+}
+
+.greyitem{
+ background: #8D8383;
+
+}
+
+.yellowitem{
+    background: #FFA500;
+
+}
+
+.facilities{
+    margin:  0 0 0 100px ;
+    width: fit-content;
+}
+
+
+/*copyright box */
+
+.copyright-box{
+        background-color:#FFA500;
+        width: 100%;
+        height: 78px;
+        display: inline-block;
+                
+    }
+
+    .copyright-text{
+    color: black;
+    font-size: 30px;
+    margin: 30px 0 0 650px;
+    letter-spacing: 8px;
+    }

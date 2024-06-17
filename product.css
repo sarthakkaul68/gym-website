@@ -1,0 +1,513 @@
+.main-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav bar */
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #524D4D;
+    height: 200px;
+    max-width: 100%;
+}
+
+.fitness-logo-container {
+    height: 350px;
+    width: 380px;
+
+
+}
+
+.fitness-logo-container>img{
+
+    height: 287px;
+    width: 100%;
+
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 84px 82px 0 0;
+
+
+}
+
+.nav-buttons a {
+    padding: 0 10px;
+    margin-top: 25px;
+    color: aliceblue;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+
+.nav-buttons button {
+
+    top: 35%;
+    right: -26%;
+    font-size: 40px;
+    border-radius: 8px;
+    height: 62%;
+    background-color: #FFA500;
+    border: none;
+    margin: 25px 0 0 8px;
+    cursor: pointer;
+
+}
+
+.nav-button {
+    margin-right: 90px;
+}
+
+
+/* nutrtion box */
+
+.nutrition-box{
+
+height: 735px;
+width: 100%;
+position: relative; /*opacity problem*/
+display: inline-block;
+
+
+}
+
+
+
+/*opacity problem*/
+.nutrition-box::before {
+
+    content: "";
+    background-image: url("./images/pexels-taryn-elliott-4099238.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.55;
+}
+
+
+
+ .nutrition-heading{
+    text-decoration: underline;
+    font-size: 65px;
+    color: black;
+    margin: 50px 0 0 950px;
+  
+    position: relative;/*opacity problem*/
+}
+
+
+
+.nutrition-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2% 0 0 0;
+    position: relative;/*opacity problem*/
+  
+    
+}
+
+
+
+
+
+.suppliments-image-container{
+    height: 280px;
+    width: 280px;
+}
+
+.suppliments-image-container>img{
+    border-radius: 50px;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+   
+
+}
+
+
+.suppliment-name{
+    background-color: #FFA500;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 40px 0 0 43px;
+    width: 200px;
+    border-radius: 120px;
+    border-width: 1px;
+    height: 45px;
+    font-weight: 400;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+/* weights  box */
+
+
+
+.weights-box{
+
+    height: 735px;
+    width: 100%;
+    position: relative; /*opacity problem*/
+    display: inline-block;
+    
+    
+    }
+    
+    
+    /*opacity problem*/
+    .weights-box::before {
+    
+        content: "";
+        background-image: url("./images/weights\ and\ machine\ image.jpg");
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.55;
+    }
+    
+    
+    
+     .weights-heading{
+        text-decoration: underline;
+        font-size: 65px;
+        color: black;
+        margin: 50px 0 0 950px;
+      
+        position: relative;/*opacity problem*/
+    }
+    
+   
+    
+    .weights-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 2% 0 0 0;
+        position: relative;/*opacity problem*/
+      
+        
+    }
+    
+      
+    
+    .equipments-image-container{
+        height: 380px;
+        width: 280px;
+    }
+    
+    .equipments-image-container>img{
+        border-radius: 6px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+       
+    
+    }
+    
+    
+    .equipments-name{
+        background-color: #FFA500;
+        font-size: 30px;
+        font-weight: 500;
+        margin: 40px 0 0 43px;
+        width: 200px;
+        border-radius: 120px;
+        border-width: 1px;
+        height: 45px;
+        font-weight: 400;
+        border-radius: 30px;
+        color: black;
+        text-align: center;
+    }
+
+
+
+
+ /*apparel  box */
+
+
+
+.apparel-box{
+
+    height: 735px;
+    width: 100%;
+    position: relative; /*opacity problem*/
+    display: inline-block;
+    
+    
+    }
+    
+    
+
+    .apparel-box::before {
+    
+        content: "";
+        background-image: url("./images/keagan-henman-xPJYL0l5Ii8-unsplash.jpg");
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.55;
+    }
+    
+    
+    
+     .apparel-heading{
+        text-decoration: underline;
+        font-size: 65px;
+        color: black;
+        margin: 50px 0 0 950px;
+      
+        position: relative;/*opacity problem*/
+    }
+    
+  
+    
+    .apparel-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 2% 0 0 0;
+        position: relative;/*opacity problem*/
+      
+        
+    }
+    
+      
+    
+    .activities-image-container{
+        height: 380px;
+        width: 280px;
+    }
+    
+    .activities-image-container>img{
+        border-radius: 6px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+       
+    
+    }
+    
+    
+    .activities-name{
+        background-color: #FFA500;
+        font-size: 30px;
+        font-weight: 500;
+        margin: 40px 0 0 43px;
+        width: 200px;
+        border-radius: 120px;
+        border-width: 1px;
+        height: 45px;
+        font-weight: 400;
+        border-radius: 30px;
+        color: black;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer box */
+
+
+.footer-box {
+
+    background-color: #524D4D;
+    display: inline-block;
+    height: 505px;
+    width: 100%;
+}
+
+
+
+.footer-sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 420px;
+}
+
+.fitness-container {
+    width: 420px;
+    height: 100%;
+    
+
+}
+
+
+.fitness-text {
+    font-size: 31px;
+    color: #FFA500;
+    width: 400px;
+    margin-left: 50px;
+
+}
+
+
+
+.ccm-container {
+    
+    margin: 45px 0 0 0;
+    height: 100%;
+    width: fit-content;
+ 
+}
+
+.ccm-table-heading {
+
+    font-size: 38px;
+    padding: 0 0 30px 70px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.table-heading-container{
+    display: flex;
+
+}
+
+.table-description-container{
+    display: flex;
+   margin-right: 55px;
+    
+}
+
+
+.ccm-table-description {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 0px 0px 150px;
+    display: inline-block;
+    margin: 0 0 51px 0;
+  
+
+}
+
+.extra-container{
+    display: none;
+}
+
+
+
+.ccm-tc {
+    color: white;
+    margin: 0 0 0 160px;
+    height: 30px;
+    font-size: 25px;
+    width: 260px;
+}
+
+
+.popular-tags-container{
+    margin: 35px 150px 0 0;
+    height: 100%;
+    width: 400px;
+}
+
+
+.popular-tags-heading{
+    font-size: 38px;
+    color: #FFA500;
+    text-decoration: underline;
+    margin: 0 0 0 35px;
+    
+}
+
+.popular-tags-table{
+    margin-top: 20px;
+    border-spacing: 20px 20px;
+}
+
+.pt-description{
+    padding: 20px 0 0 0;
+    margin: 10px 24px;
+    color: white;
+    font-size: 32px;
+    width: 30%;
+
+
+}
+
+
+.pt-item-row{
+
+display: flex;
+
+}
+
+.greyitem{
+ background: #8D8383;
+
+}
+
+.yellowitem{
+    background: #FFA500;
+
+}
+
+.facilities{
+    margin:  0 0 0 100px ;
+    width: fit-content;
+}
+
+
+/*copyright box */
+
+.copyright-box{
+        background-color:#FFA500;
+        width: 100%;
+        height: 78px;
+        display: inline-block;
+                
+    }
+
+    .copyright-text{
+    color: black;
+    font-size: 30px;
+    margin: 30px 0 0 650px;
+    letter-spacing: 8px;
+    }
